@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+i{
+    cursor: pointer;
+}
+body{
+    overflow-x: hidden;
+}
+#wrapper{
+    display: flex;
+    min-height: 100vh;
+}
+.toggleWrapper #sidebar{
+    margin-left: -20%;
+}
+.toggleWrapper #main-content{
+    width: 100%;
+    margin-left: 0%;
+}
+#sidebar{
+    width: 20%;
+    /* background-color: darkcyan; */
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    /* background-color: #0F1A34; */
+    background-color: #F9F9F9;
+}
+#header{
+    background-color: #FFFFFF;
+}
+#main-content{
+    width: calc(100% - 20%);
+    margin-left: 20%;
+    background-color: cornflowerblue;
+    transition: 0.5s;
+    background-color: #F9F9F9;
+}
+/* sidebar */
+#sidebar #sidebarMenu{
+    
+}
+#sidebar #sidebarMenu ul{
+
+}
+#sidebar #sidebarMenu ul li{
+
+}
+#sidebar #sidebarMenu ul li a{
+
+}
+#sidebar #sidebarMenu ul li a span{
+
+}
+#sidebar #sidebarMenu ul li a #icon{
+    
+}
+#sidebar #sidebarMenu ul li a #icon i{
+    
+}
+#sidebar #sidebarMenu ul li a #menuText{
+    
+}
